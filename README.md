@@ -6,5 +6,8 @@
 Hello!
 
 * python
-* ces
+* css
 * react
+
+## 2022-09-10
+* learn github issues from conding everybody
