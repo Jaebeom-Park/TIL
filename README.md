@@ -11,3 +11,6 @@ Hello!
 
 ## 2022-09-10
 * learn github issues from conding everybody
+
+## 2022-09-11
+* learn github actions form coding everybody
