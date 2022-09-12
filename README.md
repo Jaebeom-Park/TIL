@@ -14,3 +14,6 @@ Hello!
 
 ## 2022-09-11
 * learn github actions form coding everybody
+
+## 2022-09-12
+* learn docker from leesungmi
