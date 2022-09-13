@@ -17,3 +17,6 @@ Hello!
 
 ## 2022-09-12
 * learn docker from leesungmi
+
+## 2022-09-13
+review pystorms sw
