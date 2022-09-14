@@ -20,3 +20,6 @@ Hello!
 
 ## 2022-09-13
 review pystorms sw
+
+## 2022-09-14
+* review PyYAML install error
