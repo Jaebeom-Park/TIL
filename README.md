@@ -23,3 +23,7 @@ review pystorms sw
 
 ## 2022-09-14
 * review PyYAML install error
+
+## 2022-09-15
+* How to install python package in docker conatiner
+* Option 1
