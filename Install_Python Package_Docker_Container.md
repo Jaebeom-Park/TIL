@@ -24,6 +24,11 @@ Docker Conatiner에 파이썬 패키지를 설치하는 방법은 다음과 같�
 > RUN yum install -y python-setuptools   
 > RUN yum install -y python-pip    
 
+도커의 리눅스 운영체계에 따라 container에 package 설치 명령어 달라짐
+> $ RUN pip install <package name > //IN Windows
+> $ RUN apt-get install <package name > //in Ubuntu
+> $ RUN yum install <package name> //CentOS/RHEL
+
 # Option 2 - container console 이용
 docker container에 login하고 직접적으로 package를 설치할 수 있다. 이것을 위해 container의 console 환경으로 가서 install 명령어를 실행한다.
 다음 명령어를 이용하여 container의 console 환경으로 집입한다.
