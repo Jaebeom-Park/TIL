@@ -9,7 +9,7 @@
 
 Docker Conatiner에 파이썬 패키지를 설치하는 방법은 다음과 같다.
 
-## Option 1 - docerfile 이용
+# Option 1 - docerfile 이용
 기존 docker image의 dockerfile을 수정하거나 추가 패키지 설치 명령어를 포함하는 신규 dockerfile을 작성한다. 
 > FROM docker-dev.artifactory.company.com/centos:7.3.1611 
 > ***
@@ -24,6 +24,13 @@ Docker Conatiner에 파이썬 패키지를 설치하는 방법은 다음과 같�
 > RUN yum install -y python-setuptools   
 > RUN yum install -y python-pip    
 
+# Option 2 - container console 이용
+docker container에 login하고 직접적으로 package를 설치할 수 있다. 이것을 위해 container의 console 환경으로 가서 install 명령어를 실행한다.
+다음 명령어를 이용하여 container의 console 환경으로 집입한다.
 
+> docker exec -it <docker_container_name> /bin/bash
 
+container의 console을 열고 다음과 같이 package를 설치한다.
+
+> pip install numpy
 
