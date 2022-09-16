@@ -25,3 +25,7 @@ review pystorms sw
 ## 2022-09-16
 * How to install python package in docker conatiner
 * Option 2
+
+## 2020-09-17
+* How to install python package in docker conatiner
+* Option 1 redeem
