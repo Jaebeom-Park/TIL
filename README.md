@@ -1,13 +1,7 @@
 # Today I leanred
 
 ## 2022-09-09
-
-### Python
-Hello!
-
-* python
-* css
-* react
+Hello! first begin
 
 ## 2022-09-10
 * learn github issues from conding everybody
@@ -27,3 +21,7 @@ review pystorms sw
 ## 2022-09-15
 * How to install python package in docker conatiner
 * Option 1
+
+## 2022-09-16
+* How to install python package in docker conatiner
+* Option 2
