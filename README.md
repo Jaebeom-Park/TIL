@@ -34,3 +34,5 @@ review pystorms sw
 * docker study site
 * vscode, ms learn site
 
+## 2022-09-20
+* A Beginners Guide To Docker and VS Code
