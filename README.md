@@ -36,3 +36,6 @@ review pystorms sw
 
 ## 2022-09-20
 * A Beginners Guide To Docker and VS Code
+
+## 2022-09-21
+* install error study
