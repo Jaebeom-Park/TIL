@@ -39,3 +39,6 @@ review pystorms sw
 
 ## 2022-09-21
 * install error study
+
+## 2022-09-22
+* install package in docker modify command
