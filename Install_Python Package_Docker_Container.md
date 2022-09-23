@@ -7,18 +7,16 @@
 * dockerfile을 통해 설치한 패키지와 laptop machine을 통해 설치한 패키지는 다른 폴더에 위치
 * 사용자가 10개 패키지를 laptop machine에 설치했다고 가정하자. docker container는 해당 패키지를 인식하지 못한다. docker container는 격리되어 있기 때문이다.
 
-Docker Conatiner에 파이썬 패키지를 설치하는 방법은 다음과 같다.
+Docker Conatiner에 파이썬 패키지를 설치하는 방법은 기본적으로 다음과 같이 3가지가 있다.
 
 # Option 1 - docerfile 이용
 기존 docker image의 dockerfile을 수정하거나 추가 패키지 설치 명령어를 포함하는 신규 dockerfile을 작성한다. 
 ```console
 FROM docker-dev.artifactory.company.com/centos:7.3.1611 
-***
-dockerfile의 기존 명령어
-***
-***
-신규 패키지 설치 명령어
-***             
+
+# dockerfile의 기존 명령어
+
+# 신규 패키지 설치 명령어           
 RUN yum install -y krb5-devel          
 RUN yum install -y python-devel   
 RUN yum install -y krb5-workstation   
@@ -38,4 +36,19 @@ container의 console을 열고 다음과 같이 package를 설치한다.
  pip install numpy
 ```
 
+# Option 3 - Docker container 내 Jupyter Notebook 이용
+3번째 옵션은 docker container 내부에 Jupyter Notebook이 설치되었을 때 이용가능하다. Jupyter Notebook에서 New Terminal을 선택하여 Terminal을 실행한다. 다음과 같이 Python package을 설치한다.
+```console
+pip install numpy
+```
+github의 python package를 설치하기 위해서는 다음과 같이 한다.           
+** Option 1: 직접 설치
+```console
+pip install git+https://github.com/jkbr/httpie.git
+```
+** Option 2: clone 후 setup.py를 이용 설치  
+```console
+git clone https://github.com/jkbr/httpie.git
+sudo python setup.py install
+```
 
