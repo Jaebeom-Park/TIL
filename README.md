@@ -44,3 +44,5 @@ review pystorms sw
 * install package in docker modify command
 ## 2022-09-23
 * python package install in docker container : option3
+## 2022-09-25
+* linux bash shell usage
