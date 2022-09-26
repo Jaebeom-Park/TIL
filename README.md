@@ -48,3 +48,5 @@ review pystorms sw
 * robust decision making study
 ## 2022-09-25
 * linux bash shell usage
+## 2022-09-25
+* development docker python
