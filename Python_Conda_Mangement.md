@@ -1,5 +1,5 @@
 # Anaconda 가상환경 관리
-## 1. Conda 가상환경 생성
+## Conda 가상환경 생성
 ```
 conda create -n bmp_moo python=3.7
 ```
