@@ -54,3 +54,5 @@ review pystorms sw
 * development docker python
 ## 2022-09-28
 * Python Library Management
+## 2022-09-29
+* rhodium robust decision make
