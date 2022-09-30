@@ -56,3 +56,5 @@ review pystorms sw
 * Python Library Management
 ## 2022-09-29
 * rhodium robust decision make
+## 2022-09-30
+* rhodium robust decision making
