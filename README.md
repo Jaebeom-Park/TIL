@@ -58,3 +58,8 @@ review pystorms sw
 * rhodium robust decision make
 ## 2022-09-30
 * rhodium robust decision making
+## 2022-10-01
+* rhodium robust decision making
+## 2022-10-02
+* rhodium robust decision making
+
